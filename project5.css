@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.gameContainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.Container{
+    display: grid;
+    grid-template-rows: repeat(8,4vw);
+    grid-template-columns: repeat(8,4vw);
+
+}
+.box{
+    border: 3px solid grey;
+    font-size: 3vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    
+}
+.box:hover{
+    background-color: cadetblue;
+}
+.box1{
+    border: 3px solid grey;
+    font-size: 3vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+.box1:hover{
+    background-color: cadetblue;
+}
+.otherside{
+    margin-right: 50px;
+    padding: 50px;
+
+}
+
